@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-var getUserRepos = function() {
-    fetch("https://api.github.com/users/octocat/repos");
-  };
-=======
 var userFormEl = document.querySelector('#user-form');
 var nameInputEl = document.querySelector('#username');
 var repoContainerEl = document.querySelector('#repos-container');
@@ -97,4 +92,3 @@ var displayRepos = function(repos, searchTerm) {
 
 // add event listeners to forms
 userFormEl.addEventListener('submit', formSubmitHandler);
->>>>>>> develop
